@@ -1,0 +1,22 @@
+.wrapper-sec {
+    position: relative;
+}
+
+.teksti{
+    position: absolute;
+    top:0;
+    width:100%;
+    opacity: 0;
+
+}
+
+
+
+.wrapper-sec:hover span{
+    opacity: 1;
+}
+
+.titull{
+    position:absolute;
+    top: 70%;
+}

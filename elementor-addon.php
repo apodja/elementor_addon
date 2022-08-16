@@ -9,7 +9,6 @@
 
 function register_custom_widget( $widgets_manager ) {
 
-	require_once( __DIR__ . '/widgets/hello-world-widget-1.php' );
 	require_once( __DIR__ . '/widgets/elementor_addon.php' );
 
 	$widgets_manager->register( new \Elementor_Hello_World_Widget_1() );
